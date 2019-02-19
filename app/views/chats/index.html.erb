@@ -6,5 +6,11 @@
   <%= f.label :body %>
   <%= f.text_area :body, id: 'message-body' %>
   <br>
+
+  <div class="form-group">
+    <label for="room_id">chatroom id</label>
+    <input type="text" class="form-control" id="room_id" name="room_id">
+  </div>
+
   <%= f.submit %>
 <% end %>
